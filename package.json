@@ -1,5 +1,5 @@
 {
-  "name": "nononick-universal-runtime",
+  "name": "ai-studio-angular-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -9,9 +9,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "serve:ssr:app": "node dist/app/server/server.mjs",
-    "launcher": "node launcher/server.mjs",
-    "test:launcher": "node --test launcher/test/launcher.test.mjs"
+    "serve:ssr:app": "node dist/app/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -49,8 +47,5 @@
     "typescript": "~5.9.2",
     "typescript-eslint": "8.47.0",
     "vitest": "^4.0.0"
-  },
-  "engines": {
-    "node": ">=20.19.0"
   }
 }
